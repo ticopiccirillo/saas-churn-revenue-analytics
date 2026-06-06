@@ -143,7 +143,7 @@ Portanto, existe uma forte chance de que o Ticket Médio esteja sendo puxado par
 
 ### Análise de Ticket Médio por Plano
 
-<img width="832" height="610" alt="09 - ticket_medio_por_plano" src="https://github.com/user-attachments/assets/b9c61c7d-5046-4287-be9d-62e14d66aa97" 
+<img width="832" height="610" alt="09 - ticket_medio_por_plano" src="https://github.com/user-attachments/assets/b9c61c7d-5046-4287-be9d-62e14d66aa97">
 
 | Plano        | Clientes | Receita Total |    Ticket Médio |
 | ------------ | -------: | ------------: | --------------: |
@@ -168,6 +168,7 @@ Um cliente Enterprise vale aproximadamente 18 vezes mais
 que um cliente Basic.
 
 ### Análise de LTV (LIFETIE VALUE)
+
 <img width="845" height="567" alt="10 - ltv_medio" src="https://github.com/user-attachments/assets/ca7ecc46-00cc-4673-be36-778ee6041e1a" />
 
 
