@@ -60,7 +60,7 @@ Geração de pagamentos.
 <img width="756" height="748" alt="criando dados de pagamentos" src="https://github.com/user-attachments/assets/4d3103a5-7c28-4b70-bfda-a5ed260d11a6" />
 
 ### Etapa 6
-Análises SQL.
+## Análises SQL.
 
 ### Receita Total 
 <img width="1005" height="452" alt="01 - Receita_Total" src="https://github.com/user-attachments/assets/80263771-2e7c-419a-a460-5d80778313eb" />
@@ -79,11 +79,12 @@ Análises SQL.
 - Clientes cancelados: 26
 - Churn Rate: 26%
 
- * Insight *
+ Insight
+ 
 A análise revelou um churn rate de 26%, indicando que aproximadamente um quarto dos clientes cancelou sua assinatura durante o período analisado.
 Em um cenário real de SaaS, essa métrica seria acompanhada continuamente para identificar oportunidades de retenção e redução da perda de receita recorrente.
 
-### Análise de MRR (Monthly Recurring Revenue)
+## Análise de MRR (Monthly Recurring Revenue)
 A análise de receita recorrente mensal demonstrou crescimento consistente ao longo do período analisado.
 
 <img width="495" height="861" alt="06 - mrr" src="https://github.com/user-attachments/assets/7913cfb8-66cc-4236-ae63-3c88d88ad0a2" />
@@ -102,6 +103,7 @@ A análise de receita recorrente mensal demonstrou crescimento consistente ao lo
 O negócio apresentou evolução positiva da receita recorrente, alcançando estabilidade operacional ao longo de 2025.
 
 ## Análise de Receita por Canal de Aquisição
+
 A análise comparou a receita gerada por clientes adquiridos através dos diferentes canais de marketing.
 
 <img width="566" height="717" alt="07_receita_por_canal" src="https://github.com/user-attachments/assets/388c741e-1161-4986-b050-f41d03bf95f7" />
@@ -122,10 +124,9 @@ A análise comparou a receita gerada por clientes adquiridos através dos difere
 * Existe evidência de diferença no valor médio dos clientes entre os canais.
 * O resultado sugere oportunidades para otimização dos investimentos de marketing focando canais com maior retorno financeiro.
 
-### Análise de Ticket Médio
+## Análise de Ticket Médio
 
 <img width="841" height="592" alt="08 - ticket_medio" src="https://github.com/user-attachments/assets/8fbab8f2-be68-49b0-8ac4-a425cb2846d3" />
-
 
 | Métrica           |         Valor |
 | ----------------- | ------------: |
@@ -133,15 +134,14 @@ A análise comparou a receita gerada por clientes adquiridos através dos difere
 | Receita Total     | R$ 266.941,50 |
 | Ticket Médio      |   R$ 3.255,38 |
 
-
 Em média, quanto cada cliente gerou de receita para a empresa?
 R$ 3.255,38 por cliente
 
 Lembrando que já descobrimos anteriormente que:
-🥇 Enterprise gera a maior parte da receita.
+- Enterprise gera a maior parte da receita.
 Portanto, existe uma forte chance de que o Ticket Médio esteja sendo puxado para cima pelos clientes Enterprise.
 
-### Análise de Ticket Médio por Plano
+## Análise de Ticket Médio por Plano
 
 <img width="832" height="610" alt="09 - ticket_medio_por_plano" src="https://github.com/user-attachments/assets/b9c61c7d-5046-4287-be9d-62e14d66aa97">
 
@@ -167,9 +167,102 @@ Ou seja:
 Um cliente Enterprise vale aproximadamente 18 vezes mais
 que um cliente Basic.
 
-### Análise de LTV (LIFETIE VALUE)
+## Análise de LTV (LIFETIE VALUE)
 
 <img width="845" height="567" alt="10 - ltv_medio" src="https://github.com/user-attachments/assets/ca7ecc46-00cc-4673-be36-778ee6041e1a" />
 
+## Análise de Churn por Plano
 
+<img width="576" height="615" alt="12 - churn_por_plano" src="https://github.com/user-attachments/assets/afd301dc-3e06-401d-8acf-dc5ae889eb74" />
+
+Ao analisar a taxa de cancelamento por plano, identifiquei que o plano Professional apresentou retenção superior aos demais. 
+Embora a distribuição dos dados fosse equilibrada, a análise sugere um possível melhor alinhamento entre preço e valor percebido pelos clientes desse plano.
+
+## Análise de Receita por Estado
+
+### São Paulo lidera a receita:
+
+·	Maior base de clientes (21) 
+
+·	Maior receita total (R$ 76,8 mil) 
+
+Isso sugere que São Paulo é atualmente o principal mercado da empresa.
+
+### Rio de Janeiro é surpreendente: 
+
+Apesar de ter apenas 16 clientes, o RJ possui o maior valor gerado por cliente.
+
+- Clientes mais qualificados
+- 
+- Maior adesão aos planos premium
+- 
+- Melhor retenção
+
+### Paraná merece atenção:
+
+·	Menor receita total
+
+·	Menor receita por cliente
+
+R$ 2.494 por cliente contra mais de R$ 3.600 no RJ
+
+Possíveis hipóteses:
+
+·	Maior concentração de clientes Basic 
+
+·	Menor retenção 
+
+·	Menor adoção de planos avançados 
+
+### Insight Executivo
+Se eu estivesse apresentando esse projeto para uma empresa SaaS, diria:
+Embora São Paulo seja o principal mercado em volume de receita, o Rio de Janeiro apresenta o maior valor médio por cliente, 
+indicando uma possível concentração de clientes mais rentáveis. Por outro lado, o Paraná apresenta menor monetização da base,
+sugerindo oportunidade para estratégias de upsell e expansão de planos premium.
+
+## Análise Top 10 Clientes por Receita
+
+<img width="546" height="827" alt="14 - Top_10_clientes_por_Receita" src="https://github.com/user-attachments/assets/e4622aeb-5636-479d-ac1f-430993e7a466" />
+
+### O Plano Enterprise domina completamente
+
+Os 10 clientes mais valiosos pertencem ao plano Enterprise.
+
+Isso confirma o que já havíamos identificado anteriormente:
+- Enterprise gera mais receita
+- Enterprise possui maior ticket médio
+- Enterprise concentra os clientes de maior valor
+
+### Forte concentração de receita
+
+O cliente líder:
+João Martins→ R$ 17.496,50
+Enquanto vários outros clientes estão na faixa de:
+·	R$ 9 mil 
+·	R$ 10 mil 
+·	R$ 11 mil 
+Isso sugere que João Martins possui uma permanência maior ou maior volume de pagamentos realizados.
+Em uma empresa real, esse cliente seria classificado como:
++ Cliente Estratégico
+
+### Risco de concentração
+
+Se os Top 10 representam uma parcela muito grande da receita total, a empresa pode estar exposta a riscos.
+Exemplo:
+·	Se João Martins cancelar amanhã... 
+·	Quanto a receita mensal será impactada? 
+
+## Análise por Segmento de Empresa
+
+<img width="937" height="703" alt="15 - Receita_por_Segmento_de_Empresa" src="https://github.com/user-attachments/assets/cb73f767-93f1-46ac-9a61-906f818ca4d4" />
+
+### Educação é o segmento mais valioso
+Não apenas em receita total.
+Mas também em receita por cliente.
+Cada cliente do segmento Educação gera mais do que o dobro da receita de um cliente do segmento Tecnologia. 
+
+### Insight Executivo
+A análise por segmento revelou que empresas do setor de Educação representam o grupo mais rentável da base de clientes, 
+apresentando a maior receita total (R$ 91.419,60) e o maior valor médio por cliente (R$ 4.353,31). 
+Em contrapartida, empresas de Tecnologia apresentaram o menor valor médio gerado por cliente, indicando diferenças significativas de monetização entre segmentos. 
 
