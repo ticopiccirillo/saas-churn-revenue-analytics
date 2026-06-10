@@ -266,3 +266,44 @@ A análise por segmento revelou que empresas do setor de Educação representam 
 apresentando a maior receita total (R$ 91.419,60) e o maior valor médio por cliente (R$ 4.353,31). 
 Em contrapartida, empresas de Tecnologia apresentaram o menor valor médio gerado por cliente, indicando diferenças significativas de monetização entre segmentos. 
 
+## Análise Churn por Segmento de Empresa
+
+O segmento Educação representa atualmente o principal gerador de receita da empresa, porém também apresenta a maior taxa de cancelamento da base (40%),
+indicando um risco relevante para a sustentabilidade do faturamento futuro. 
+
+✅ Maior receita
+❌ Maior churn (40%)
+
+Marketing é o "Segmento dos Sonhos" 
+
+Receita Total     R$ 58.278
+Clientes          21
+Churn             14,29%
+
+Temos:
+✅ Boa receita
+✅ Boa base de clientes
+✅ Menor churn do negócio
+
+### Análise rápida
+
+🟢 Alta Receita + Baixo Churn
+* Marketing
+Segmento ideal para crescimento
+
+* Financeiro
+Base saudável e estável.
+
+🟡 Alta Receita + Alto Churn
+* Educação
+Gera muito dinheiro, mas precisa de ações de retenção.
+
+* E-commerce
+Possui potencial de crescimento.
+
+🔴 Baixa Receita + Alto Churn
+* Tecnologia
+Possui menor valor gerado e alta taxa de cancelamento.
+É o segmento mais problemático da base.
+
+
